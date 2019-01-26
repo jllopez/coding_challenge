@@ -55,10 +55,11 @@ The purpose of this challenge is to write code and testcases to return the longe
 
 1. Open a terminal/prompt
 2. Run `git clone https://github.com/jllopez/coding_challenge.git` to fetch the projects code
-3. Run `python3 -m virtualenv env` to create a virtual environment
-4. Run `source env/bin/activate` to activate the virtual environment
-5. Run `pip install -r requirements.txt`
-6. Run `python test_longest_word_finder.py`
+3. Run `cd coding_challenge` to change to the project's root directory
+4. Run `python3 -m virtualenv env` to create a virtual environment
+5. Run `source env/bin/activate` to activate the virtual environment
+6. Run `pip install -r requirements.txt`
+7. Run `python test_longest_word_finder.py`
 
 If everything was setup correctly an output similar to this should be displayed in the terminal:
 
