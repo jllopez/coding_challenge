@@ -1,6 +1,6 @@
 # Coding Challenge
 
-The purpose of this challenge is to write code and testcases to return the longest word (plain and reversed) in a file.
+Write code to find the longest word in a file as well as the reversed representation of the longest word found. Create test cases to verify that the longest word (normal and reversed) is found.
 
 ## Assumptions
 
@@ -64,9 +64,9 @@ If everything was setup correctly an output similar to this should be displayed 
 ```
 Running tests...
 ----------------------------------------------------------------------
-.............
+..............
 ----------------------------------------------------------------------
-Ran 13 tests in 0.001s
+Ran 14 tests in 0.001s
 
 OK
 
