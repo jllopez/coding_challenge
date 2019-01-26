@@ -1,0 +1,57 @@
+{
+    "lowercase_letters": {
+        "given_input": "a ab abc abcd abcdefg",
+        "expected_output": "abcdefg",
+        "expected_output_transposed": "gfedcba"
+    },
+    "numbers": {
+        "given_input": "1324 12 3 0 1325 23 341 13410158 1235 12 1",
+        "expected_output": "13410158",
+        "expected_output_transposed": "85101431"
+    },
+    "capital_letters": {
+        "given_input": "THIS IS A SUPERMEGAWORD TEST AND WE KNOW WHICH WORDS IS THE LONGEST",
+        "expected_output": "SUPERMEGAWORD",
+        "expected_output_transposed": "DROWAGEMREPUS"
+    },
+    "letters_numbers": {
+        "given_input": "THIS IS A TEST with LonG numbers 100000003023020",
+        "expected_output": "100000003023020",
+        "expected_output_transposed": "020320300000001"
+    },
+    "special_chars": {
+        "given_input": "@$#% @$#%@# %$@#$%!&^*^*() ! %@#45 @^236 :) :( testing is life",
+        "expected_output": "%$@#$%!&^*^*()",
+        "expected_output_transposed": ")(*^*^&!%$#@$%"
+    },
+    "empty_string": {
+        "given_input": "",
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "long_string": {
+        "given_input": "Data-driven testing (DDT) is a software testing methodology that is used in the testing of computer software to describe testing done using a table of conditions directly as test inputs and verifiable outputs as well as the process where test environment settings and control are not hard-coded. In the simplest form the tester supplies the inputs from a row in the table and expects the outputs which occur in the same row. The table typically contains values which correspond to boundary or partition input spaces. In the control methodology, test configuration is 'read' from a database. Data-driven testing is the creation of test scripts to run together with their related data sets in a framework. The framework provides re-usable test logic to reduce maintenance and improve test coverage. Input and result (test criteria) data values can be stored in one or more central data sources or databases, the actual format and organization can be implementation specific.The data comprises variables used for both input values and output verification values.In advanced(mature) automation environments data can be harvested from a running system using a purpose - built custom tool or sniffer, the DDT framework thus performs playback of harvested data producing a powerful automated regression testing tool. Navigation through the program, reading of the data sources, and logging of test status and information are all coded in the test script.",
+        "expected_output": "advanced(mature)",
+        "expected_output_transposed": ")erutam(decnavda"
+    },
+    "null": {
+        "given_input": null,
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "single_char": {
+        "given_input": "a",
+        "expected_output": "a",
+        "expected_output_transposed": "a"
+    },
+    "palindrome": {
+        "given_input": "larutanatural",
+        "expected_output": "larutanatural",
+        "expected_output_transposed": "larutanatural"
+    },
+    "long_string_with_palindrome": {
+        "given_input": "This is a long string but somewhere in between I will insert a palindrome such as larutanatural or anutforajaroftuna and we should get that word back since is the longest and its reverse for is the same",
+        "expected_output": "anutforajaroftuna",
+        "expected_output_transposed": "anutforajaroftuna"
+    }
+}
