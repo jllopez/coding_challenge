@@ -1,3 +1,4 @@
+import os.path
 import unittest
 import xmlrunner
 from ddt import ddt, file_data
@@ -18,6 +19,9 @@ class TestLongestWordFinder(unittest.TestCase):
         lwf = LongestWordFinder()
         self.assertEqual(lwf.longest_word, '')
         self.assertEqual(lwf.longest_word_transposed, '')
+
+    def test_input_file_exist(self):
+        self.assertTrue(os.path.exists('input_file.json'))
 
     @file_data('input_file.json')
     def test_find_longest_and_transposed_word(self, given_input,

@@ -6,7 +6,7 @@ The purpose of this challenge is to write code and testcases to return the longe
 
 1. **Input file:**
 
-   File must follow the following standard:
+   File is a valid JSON representation such as:
 
    ```
    {
@@ -92,3 +92,16 @@ If you want to check what is the longest word in `which word is the loooooooonge
 "expected_output_transposed": "tsegnooooooool"
 }
 ```
+
+Don't forget to add a comma after the last entry:
+
+```
+},
+"my_new_test": {
+"given_input": "which word is the loooooooongest one here?",
+"expected_output": "loooooooongest",
+"expected_output_transposed": "tsegnooooooool"
+}
+```
+
+Otherwise, a ValueError exception is raised indicating the JSON representation is invalid.
