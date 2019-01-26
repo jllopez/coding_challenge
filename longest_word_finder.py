@@ -1,6 +1,3 @@
-import os.path
-
-
 class LongestWordFinder:
     """A class to keep track of the longest word in a file"""
 
@@ -8,7 +5,7 @@ class LongestWordFinder:
         """Initializes the class. 
 
         By default the longest word values
-        are initialized to an empty string 
+        are initialized to an empty string
         """
         self.longest_word = ''
         self.longest_word_transposed = ''
