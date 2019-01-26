@@ -21,6 +21,7 @@ class TestLongestWordFinder(unittest.TestCase):
         self.assertEqual(lwf.longest_word_transposed, '')
 
     def test_input_file_exist(self):
+        """Test if file exist"""
         self.assertTrue(os.path.exists('input_file.json'))
 
     @file_data('input_file.json')

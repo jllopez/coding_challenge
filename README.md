@@ -6,7 +6,7 @@ The purpose of this challenge is to write code and testcases to return the longe
 
 1. **Input file:**
 
-   File is a valid JSON representation such as:
+   The file content is a valid JSON representation of the form:
 
    ```
    {
@@ -32,15 +32,15 @@ The purpose of this challenge is to write code and testcases to return the longe
    abcdefg
    ```
 
-   Because this limits test case reuse. If we want to run the same test with different data we will need to create separate input files for each scenario we want to cover. Also, for each newly created file we will need to open the file, read it, store the contents in a string and finally close it. Since we are storing the contents in a string; why not pass a string in the first place? This problem seems like a good candidate for a Data Driven Test approach.
+   Because this limits test case reuse. If we want to run the same test with different data we will need to create separate input files for each scenario we want to cover. Also, for each newly created file we will need to open the file, read it, store the contents in a string and finally close it. Since we are storing the contents in a string; Why not pass a string in the first place? This problem seems like a good candidate for a Data Driven Test approach.
 
    **Why Data Driven Test?**
 
-   This allows us to implement an approach where the same test is used with different data. Did I also mention that adding new tests is easier and more readable?
+   This allows us to implement an approach where the same test is used with different data. Did I mentioned that adding new tests is also easier and more readable?
 
 2. **Two or more words with the same size:**
 
-   The last longest word is returned if there are 2 or more words with the same size.
+   The last longest word found is returned if there are 2 or more words with the same size.
 
 ## Requirements
 
@@ -48,8 +48,6 @@ The purpose of this challenge is to write code and testcases to return the longe
 - [Pip](https://pip.pypa.io/en/stable/installing/)
 - [Virtualenv](https://docs.python.org/3/tutorial/venv.html)
 - [Git](https://git-scm.com/downloads)
-
-  **Note:** Creating a virtual environment is a good practice to isolate and control the Python environment to be used in a project. It also helps to overcome permission issues when trying to install new packages.
 
 ## Run tests
 
@@ -75,11 +73,11 @@ OK
 Generating XML reports...
 ```
 
-In addition, an XML file with test results should be found under `./test_results`
+In addition, an XML file with test results can be found under `./test_results`
 
-## Want to run the test with your own data?
+## Want to run the test file with your own data?
 
-Running the test with your own data is easy. All you have to do is add a new entry to `input_file.json`.
+Running the test file with your own data is easy. All you have to do is add a new entry to `input_file.json`.
 
 For example,
 
@@ -93,7 +91,7 @@ If you want to check what is the longest word in `which word is the loooooooonge
 }
 ```
 
-Don't forget to add a comma after the last entry:
+Don't forget to add a comma after the last existing entry and before your new one:
 
 ```
 },
