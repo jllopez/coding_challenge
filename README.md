@@ -4,7 +4,7 @@ Write code to find the longest word in a file as well as the reversed representa
 
 ## Assumptions
 
-1. **Input file:**
+1. **Input file**
 
    The file content is a valid JSON representation of the form:
 
@@ -38,9 +38,13 @@ Write code to find the longest word in a file as well as the reversed representa
 
    This allows us to implement an approach where the same test is used with different data. Did I mentioned that adding new tests is also easier and more readable?
 
-2. **Two or more words with the same size:**
+2. **Two or more words with the same size**
 
    The last longest word found is returned if there are 2 or more words with the same size.
+
+3. **Words**
+
+   Words are strings. If the input given is not a string then we return the empty string as the longest word.
 
 ## Requirements
 

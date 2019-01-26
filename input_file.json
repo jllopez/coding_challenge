@@ -53,5 +53,50 @@
         "given_input": "This is a long string but somewhere in between I will insert a palindrome such as larutanatural or anutforajaroftuna and we should get that word back since is the longest and its reverse for is the same",
         "expected_output": "anutforajaroftuna",
         "expected_output_transposed": "anutforajaroftuna"
+    },
+    "integer": {
+        "given_input": 23,
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "negative_integer": {
+        "given_input": -23,
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "float": {
+        "given_input": 3.32,
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "negative_float": {
+        "given_input": -3.32,
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "dictionary": {
+        "given_input": {},
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "list": {
+        "given_input": [],
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "long_number": {
+        "given_input": 312341124,
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "long_float": {
+        "given_input": 313241.321234124,
+        "expected_output": "",
+        "expected_output_transposed": ""
+    },
+    "words_with_same_lenght": {
+        "given_input": "aa bb cc dd ee f gg h i j k",
+        "expected_output": "gg",
+        "expected_output_transposed": "gg"
     }
 }

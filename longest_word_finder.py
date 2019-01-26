@@ -12,7 +12,7 @@ class LongestWordFinder:
 
     def find_longest_word(self, str_of_words):
         """Finds the longest word in a string"""
-        if str_of_words:
+        if str_of_words and type(str_of_words) is str:
             words = str_of_words.split()
             max_word_len = len(max(words, key=len))
             for word in words:
